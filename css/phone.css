@@ -353,4 +353,81 @@ body {
     cursor: pointer;
   }
   
-  
+  /*  */
+  h2{
+    position: relative;
+    left: 113px;
+    font-size: 34px;
+}
+#page1{
+    left: 105px;
+    font-size: 18px;
+}
+
+hr {
+    width: 496px;
+    position: relative;
+    left: 67px;
+}
+#about{
+  height: 100%;
+}
+h1{
+  left: 243px;
+  top: 71px;
+}
+#page2{
+  width: 490px;
+  top: 178px;
+}
+#page3{
+  top: 171px;
+    right: 316px;
+}
+
+#skills{
+  height: 741px;
+}
+#skills1,
+#skills2,
+#skills3{
+  width: 495px;
+  height: 201px;
+}
+h3{
+  font-size: 17px
+}
+#skills1{
+  left: -9px;
+}
+#skills2{
+  left: 236px;
+    bottom: 20px;
+}
+#skills3{
+  left: -11px;
+    top: 2px;
+}
+
+#project{
+  height: 100%;
+}
+h5{
+  position: relative;
+    left: 97px;
+    font-size: 19px;
+}
+#work{
+  width: 262px;
+  left: 107px;
+  height: 146px;
+}
+#web{
+  right: 0px;
+}
+.container{
+  left: 12px;
+}
+.img{
+  /* width: 17px; */
+}
