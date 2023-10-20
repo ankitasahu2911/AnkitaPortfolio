@@ -1,7 +1,7 @@
 body {
   margin: 0px;
   padding: 0px;
-  background-color: black;
+  background-color: rgb(3, 7, 19);
   
 }
 header {
@@ -24,23 +24,78 @@ header::before {
   top: 14px;
   color: white;
 }
-
-h2 {
-  text-align: center;
-  font-size: 90px;
+.head{
+  font-family: cursive;
+  font-style: italic;
+  font-size: 50px;
+  position: relative;
+  display: inline;
   
+  top: -24px;
+    right: 118px;
+  z-index: 2;
+}
+h2 {
+  /* text-align: center; */
+  font-size: 34px;
+  font-family: cursive;
+  position: relative;
+  left: 70px;
+  top: 126px;
   
 }
 p {
-  text-align: center;
+  /* text-align: center; */
   font-size: 20px;
   padding: 0px 124px;
+  position: relative;
+  left: 50px;
+  top: 106px;
   
 }
 
+.cv{
+  position: relative;
+  left: 67px;
+  top: 97px;
+  width: 169px;
+    height: 0px;
+    background-color: rgb(55, 170, 216);
+    font-family: cursive;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 24px;
+}
+.cv:hover{
+  width: 189px;
+  
+cursor: pointer;
+  
+color: #040404;
+  
+background-color:rgb(41, 77, 155);
+}
+#profile{
+  position: relative;
+    width: 300px;
+    height: 300px;
+    
+    left: 853px;
+
+    bottom: 200px;
+    
+}
+/* #end{
+  width: 100px;
+  margin: 20px 40px;
+} */
 img {
   width: 100px;
   margin: 20px 40px;
+}
+#profile:hover{
+  cursor: pointer;
+  
 }
 .navbar {
   
@@ -77,7 +132,7 @@ img {
 /* about */
 
 #about {
-  height: 602px;
+  height: 472px;
 }
 .box {
   display: grid;
@@ -96,7 +151,7 @@ h1 {
   position: relative;
   left: 590px;
 }
-#page2 {
+/* #page2 {
   
   width: 640px;
   padding: 34px 0px;
@@ -105,22 +160,27 @@ h1 {
   top: 96px;
   right: 135px;
   
-}
+} */
 #page3{
 
   width: 640px;
   padding: 34px 0px;
   height: 372px;
   position: relative;
-  top: 156px;
-  right: 135px;
+  /* top: 156px;
+  right: 135px; */
+  text-align: center;
+  left: 187px;
+  top: 107px;
+  
+
 }
-#profile {
+/* #profile {
   width: 364px;
   height: 426px;
   position: relative;
   bottom: 36px;
-}
+} */
 
 /* skills  */
 
@@ -143,27 +203,32 @@ h1 {
   transition: all 1s ease-in-out 0.1s;
   border-radius: 30px;
 }
-p {
+#skill {
   padding: 0px 60px;
   position: relative;
   bottom: 23px;
+  left: 19px;
+  top: 0px;
 }
 #skills1 {
   position: relative;
   left: 149px;
-  bottom: 41px;
+  bottom: 10px;
+  box-shadow: 8px 10px 10px 4px #11640c;
 }
 #skills2 {
   float: right;
   position: relative;
   right: 118px;
-  bottom: 116px;
+  bottom: 82px;
+  box-shadow: 8px 10px 10px 4px #11640c;
 }
 #skills3 {
   float: left;
   position: relative;
-  top: 91px;
+  top: 126px;
   left: 149px;
+  box-shadow: 8px 10px 10px 4px #11640c;
 }
 #skills1:hover,
 #skills2:hover,
@@ -196,7 +261,10 @@ h4 {
   color: white;
   font-size: 54px;
   position: relative;
-  bottom: 47px;
+  bottom: 30px;
+  padding: 0px;
+  display: inline;
+    left: 517px;
 }
 
 /* project section  */
@@ -214,7 +282,7 @@ button, .btn{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 23px;
+  padding: 44px;
   
 }
 button:hover , .btn:hover{
@@ -249,14 +317,19 @@ button:hover , .btn:hover{
   padding: 12px 12px;
  
   position: relative;
-  top: 40px;
-  right: 130px;
+  top: 15px;
+  left: 0px;
+    /* right: -3px; */
+  /* top: 40px;
+  right: 130px; */
 }
 #project1{
   
   font-size: 15px;
   position: relative;
-    bottom: px;
+    /* bottom: px; */
+    top: -20px;
+    left: 0px;
 }
 
 /* get in touch */
@@ -264,12 +337,12 @@ button:hover , .btn:hover{
 .container {
   color: white;
   display: flex;
-  width: 84%;
+  width: 88%;
   margin: 12px;
   border-radius: 15px;
   
   position: relative;
-  left: 100px;
+  left: 65px;
   background-color: rgb(96, 119, 96);
 }
 .block {
@@ -298,14 +371,24 @@ h6 {
   border-radius: 15px;
   background-color: rgb(192, 209, 218);
   color: black;
+  left: 7px;
+  top: -36px;
 }
 #message {
   border-radius: 15px;
   background-color: rgb(192, 209, 218);
 }
+#last{
+  left: 7px;
+  top: -36px;
+}
 #phone,
 #email,
 #linkedin , #github{
+  padding: 17px;
+    position: relative;
+    right: 57px;
+    top: 5px;
   height: 37px;
   width: 150px;
   background-color: rgb(200, 216, 221);
@@ -329,6 +412,8 @@ h6 {
 #extra{
   text-align: center;
     font-size: 20px;
+    left: -5px;
+    top: -31px;
 
 
 }
@@ -342,7 +427,7 @@ h6 {
   height: 34px;
   position: relative;
   top: 11px;
-  left: 56px;
+  left: 63px;
 }
 
 h4:hover {

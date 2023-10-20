@@ -1,58 +1,101 @@
 
   
   /*  */
+
+  #home{
+    height: 491px;
+  }
   h2{
     position: relative;
-    left: 113px;
-    font-size: 34px;
+    left: 23px;
+    font-size: 25px;
+}
+img{
+  width: 60px;
+  position: relative;
+    left: 130px;
+    top: 36px;
+}
+.head{
+  font-size: 24px;
+    right: 12px;
+    top: 20px;
+}
+.navbar{
+  position: relative;
+    top: 48px;
+}
+.navbar ul li a{
+  font-size: 12px;
+    padding: 3px 16px;
 }
 #page1{
-    left: 105px;
-    font-size: 18px;
+  left: -66px;
+  font-size: 11px;
 }
-
+#profile{
+  position: relative;
+    width: 105px;
+    height: 105px;
+    left: 234px;
+    top: -61px;
+}
 hr {
-    width: 496px;
-    position: relative;
-    left: 67px;
+  width: 377px;
+  position: relative;
+  left: 0px;
 }
 #about{
-  height: 100%;
+  height: 405px;
 }
 h1{
-  left: 243px;
-  top: 71px;
+  left: 142px;
+    top: 0px;
+    font-size: 26px;
 }
 #page2{
   width: 490px;
   top: 178px;
 }
 #page3{
-  top: 171px;
-    right: 316px;
+  font-size: 14px;
+    width: 334px;
+    left: -87px;
+    top: 61px;
 }
-
+#h2{
+  left: 100px;
+    font-size: 39px;
+    bottom: 2px;
+}
+#skill{
+  padding: 0px;
+  top: -22px;
+}
 #skills{
   height: 741px;
 }
 #skills1,
 #skills2,
 #skills3{
-  width: 495px;
-  height: 201px;
+  width: 368px;
+    height: 166px;
 }
 h3{
+  /* top: 67px; */
+    position: relative;
   font-size: 17px
 }
 #skills1{
-  left: -9px;
+  left: -54px;
 }
 #skills2{
-  left: 236px;
-    bottom: 20px;
+  
+    left: 66px;
+    bottom: 2px;
 }
 #skills3{
-  left: -11px;
+  left: -54px;
     top: 2px;
 }
 
