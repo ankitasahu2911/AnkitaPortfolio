@@ -3,54 +3,64 @@
   /*  */
 
   #home{
-    height: 491px;
+    height: 559px;
   }
   h2{
     position: relative;
-    left: 23px;
+    left: 341px;
     font-size: 25px;
 }
 img{
   width: 60px;
   position: relative;
-    left: 130px;
+    left: 513px;
     top: 36px;
 }
 .head{
   font-size: 24px;
-    right: 12px;
+    left: 379px;
     top: 20px;
 }
 .navbar{
   position: relative;
     top: 48px;
+    left: 493px;
 }
 .navbar ul li a{
-  font-size: 12px;
+  font-size: 29px;
     padding: 3px 16px;
 }
 #page1{
-  left: -66px;
+  left: 263px;
   font-size: 11px;
 }
 #profile{
   position: relative;
     width: 105px;
     height: 105px;
-    left: 234px;
-    top: -61px;
+    left: 614px;
+    top: -75px;
+}
+.cv{
+  left: 334px;
+  
 }
 hr {
+  width: 1013px;
+    position: relative;
+    left: 81px;
+}
+#hr{
   width: 377px;
   position: relative;
   left: 0px;
 }
 #about{
-  height: 405px;
+  height: 556px;
 }
 h1{
-  left: 142px;
-    top: 0px;
+  left: 520px;
+    top: 57px;
     font-size: 26px;
 }
 #page2{
@@ -60,13 +70,13 @@ h1{
 #page3{
   font-size: 14px;
     width: 334px;
-    left: -87px;
-    top: 61px;
+    left: 292px;
+    top: 171px;
 }
 #h2{
-  left: 100px;
-    font-size: 39px;
-    bottom: 2px;
+  left: 485px;
+  font-size: 39px;
+  bottom: 14px;
 }
 #skill{
   padding: 0px;
@@ -78,7 +88,7 @@ h1{
 #skills1,
 #skills2,
 #skills3{
-  width: 368px;
+  width: 624px;
     height: 166px;
 }
 h3{
@@ -87,16 +97,16 @@ h3{
   font-size: 17px
 }
 #skills1{
-  left: -54px;
+  left: 202px;
 }
 #skills2{
   
-    left: 66px;
-    bottom: 2px;
+  left: 575px;
+  top: 40px;
 }
 #skills3{
-  left: -54px;
-    top: 2px;
+  left: 202px;
+    top: 90px;
 }
 
 #project{
@@ -104,20 +114,33 @@ h3{
 }
 h5{
   position: relative;
-    left: 97px;
+    left: 393px;
     font-size: 19px;
 }
 #work{
-  width: 262px;
-  left: 107px;
+  
   height: 146px;
+  width: 509px;
+    left: 384px;
 }
 #web{
   right: 0px;
 }
+#project1{
+  font-size: 3px;
+    position: relative;
+    top: -20px;
+    left: 0px;
+}
 .container{
+  width: 284%;
   left: 12px;
 }
 .img{
   /* width: 17px; */
+}
+h6{
+  font-size: 24px;
+    position: relative;
+    /* right: 196px; */
 }
