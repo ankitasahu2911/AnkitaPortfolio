@@ -60,7 +60,7 @@ p {
   top: 97px;
   width: 169px;
     height: 0px;
-    background-color: rgb(55, 170, 216);
+    background-color: green;
     font-family: cursive;
     font-size: 18px;
     border-radius: 20px;
@@ -73,7 +73,7 @@ cursor: pointer;
   
 color: #040404;
   
-background-color:rgb(41, 77, 155);
+background-color:rgb(64, 173, 64);
 }
 #profile{
   position: relative;
